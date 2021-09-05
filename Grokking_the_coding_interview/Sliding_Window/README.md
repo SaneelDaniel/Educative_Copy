@@ -71,6 +71,8 @@ there are four overlapping elements between the subarray (indexed from 0-4) and 
 
 How can we somehow reuse the sum we have calculated for the overlapping elements?
 
+#### Efficient Approach
+
 The efficient way to solve this problem would be to visualize each contiguous subarray as a sliding window of ‘5’ elements.
 
 This means that we will slide the window by one element when we move on to the next subarray.
@@ -139,6 +141,9 @@ Sliding Window Problems List
    <br/>
 
 5. [Longest SubString with Non Repeating Characters](LongestSubString_Distinct_Characters/README.md)
+<br/>
+
+6. [Longest SubString With Same Letters After Replacement](Longest_SubString_With_Same_Letters_After_Replacement/README.md)
 
 </details>
 <br/>
