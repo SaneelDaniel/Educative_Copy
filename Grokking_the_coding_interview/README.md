@@ -4,4 +4,4 @@
 
 The content categorizes coding interview problems into a set of 16 patterns
 
-1. [Sliding Window](Sliding_Window/README.md)
+1. [Sliding Window](./Sliding_Window/README.md)
