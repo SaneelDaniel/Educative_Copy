@@ -133,6 +133,9 @@ Sliding Window Problems List
    <br/>
 
 3. [Longest SubString with K Distinct Chars](Longest_SubString_K_Distinct_Chars/README.md)
+   <br/>
+
+4. [Fruits Into Basket](Fruits_Into_Basket/README.md)
 
 </details>
 <br/>
