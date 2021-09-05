@@ -38,23 +38,30 @@ There is one difference though: in this problem, the sliding window size is not 
 Here is how we will solve this problem:
 
 1. First, we will add-up elements from the beginning of the array until their sum becomes greater than or equal to ‘S.’
-   <br/>
+
+<br/>
+
 2. These elements will constitute our sliding window. We are asked to find the smallest such window having a sum greater than or equal to ‘S.’ We will remember the length of this window as the smallest window so far.
-   <br/>
-3. After this we will keep adding one element in the sliding window in a **stepwise manner**
-   <br/>
-4. On each **step**, we will also try to shrink the window from the start. We will shrink the window, until the window's usm is smaller than 'S' again.
 
-- This is needed to find the smallest window.
-- The shrinking will also happen in multiple steps, and on each step we need to do 2 things:
+<br/>
 
-  - Check if the current window length is the smallest so far, and if so, remember its length.
-  - Subtract the first element of the window from the running sum to shrink the sliding window.
+3.  After this we will keep adding one element in the sliding window in a **stepwise manner**
     <br/>
+
+4.  On each **step**, we will also try to shrink the window from the start. We will shrink the window, until the window's usm is smaller than 'S' again.
+
+    - This is needed to find the smallest window.
+    - The shrinking will also happen in multiple steps, and on each step we need to do 2 things:
+
+      - Check if the current window length is the smallest so far, and if so, remember its length.
+      - Subtract the first element of the window from the running sum to shrink the sliding window.
+
+<br/>
 
 ##### Visual Steps
 
 ![visual-image](./images/visual_steps.png)
+
 <br/>
 
 #### Code
@@ -78,10 +85,8 @@ class MinSizeSubArraySum {
   }
 ```
 
-<br/>
 #### Time Complexity: O(N)
 
-<br/>
 #### Space Complexity: O(1)
 
 [Code File](./MinSizeSubArraySum.java)

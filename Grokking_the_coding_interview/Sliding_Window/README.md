@@ -123,8 +123,12 @@ Solving all questions wil lhelp you understand and gain control over the **Slidi
 <summary>Sliding Window Problems List</summary>
 
 1. [Max Sum Of Sub Array](Maximum_Sum_SubArray/README.md)
+   <br/>
 
 2. [Smallest Sub Array With A Given Sum](Smallest_Sub_Array/README.md)
+   <br/>
+
+3. [Longest SubString with K Distinct Chars](Longest_SubString_K_Distinct_Chars/README.md)
 
 </details>
 <br/>
