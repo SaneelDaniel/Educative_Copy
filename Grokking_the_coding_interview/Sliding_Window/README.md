@@ -136,6 +136,9 @@ Sliding Window Problems List
    <br/>
 
 4. [Fruits Into Basket](Fruits_Into_Basket/README.md)
+   <br/>
+
+5. [Longest SubString with Non Repeating Characters](LongestSubString_Distinct_Characters/README.md)
 
 </details>
 <br/>
