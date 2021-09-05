@@ -119,4 +119,14 @@ This is one of the many commonly used patterns for the coding interviews.
 
 Solving all questions wil lhelp you understand and gain control over the **Sliding Window** pattern.
 
+<details>
+<summary>Sliding Window Problems List</summary>
+
+1. [Max Sum Of Sub Array](Maximum_Sum_SubArray/README.md)
+
+2. [Smallest Sub Array With A Given Sum](Smallest_Sub_Array/README.md)
+
+</details>
+<br/>
+
 **[Go Back](../README.md)**
