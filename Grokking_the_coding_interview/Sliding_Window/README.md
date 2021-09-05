@@ -29,7 +29,9 @@ Here is the final output containing the averages of all contiguous subarrays of 
 Output: [2.2, 2.8, 2.4, 3.6, 2.8];
 ```
 
-#### A Brute Force Solution
+<br/>
+
+### A Brute Force Solution
 
 ```
 - Calculate the sum of every 5-element contiguous subarray of the given array
@@ -70,8 +72,9 @@ For example, take the above-mentioned input:
 there are four overlapping elements between the subarray (indexed from 0-4) and the subarray (indexed from 1-5).
 
 How can we somehow reuse the sum we have calculated for the overlapping elements?
+<br/>
 
-#### Efficient Approach
+### Efficient Approach
 
 The efficient way to solve this problem would be to visualize each contiguous subarray as a sliding window of ‘5’ elements.
 
@@ -86,6 +89,7 @@ To reuse the sum from the previous subarray we will:
 This will save us from going through the whole subarray to find the sum and, as a result, the algorithm complexity will reduce to O(N).
 
 Here is the algorithm for the Sliding Window approach:
+<br/>
 
 ```java
 import java.util.Arrays;
@@ -115,6 +119,8 @@ class AverageOfSubarrayOfSizeK {
 }
 ```
 
+<br/>
+
 This repository contains a bunch of problem involving and solved using the Sliding Window Approach.
 
 This is one of the many commonly used patterns for the coding interviews.
@@ -141,7 +147,7 @@ Sliding Window Problems List
    <br/>
 
 5. [Longest SubString with Non Repeating Characters](LongestSubString_Distinct_Characters/README.md)
-<br/>
+   <br/>
 
 6. [Longest SubString With Same Letters After Replacement](Longest_SubString_With_Same_Letters_After_Replacement/README.md)
 
