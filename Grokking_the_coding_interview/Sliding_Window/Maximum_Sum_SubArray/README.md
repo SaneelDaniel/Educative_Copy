@@ -1,6 +1,6 @@
-#### Maximum Sum Subarray of Size K (easy)
+## Maximum Sum Subarray of Size K (easy)
 
-##### Problem Statement
+### Problem Statement
 
 Given an array of positive numbers and a positive number ‘k,’ find the **maximum sum of any contiguous subarray of size ‘k’**.
 
@@ -24,7 +24,7 @@ Explanation: Subarray with maximum sum is [3, 4].
 
 A basic brute force solution will be to calculate the sum of all ‘k’ sized subarrays of the given array to find the subarray with the highest sum. We can start from every index of the given array and add the next ‘k’ elements to find the subarray’s sum.
 
-######Code
+#### Code
 
 ```java
 class MaxSumSubArrayOfSizeK {
@@ -52,7 +52,7 @@ class MaxSumSubArrayOfSizeK {
 
 The above algorithm’s time complexity will be O(N\*K), where ‘N’ is the total number of elements in the given array. Is it possible to find a better algorithm than this?
 
-###### Better Approach
+#### Better Approach
 
 If you observe closely, you will realize that to calculate the sum of a contiguous subarray, we can utilize the sum of the previous subarray.
 
@@ -85,9 +85,9 @@ class MaxSumSubArrayOfSizeK {
   }
 ```
 
-###### Time Complexity: O(N) - Linear
+##### Time Complexity: O(N) - Linear
 
-###### Space Complexity: O(1) - Constant
+##### Space Complexity: O(1) - Constant
 
 [Code File](./MaxSumSubArrayOfSizeK.java)
 
